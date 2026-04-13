@@ -30,6 +30,8 @@ Name: John Le
     No
     - Why or why not?  
     Lock g prevents more than one thread being inside critical section at a time.
+    ** zk ** why specifically does this prevent deadlock?
+
     - Should helgrind be reporting the same error?  
     No
     - What does this tell you about tools like helgrind?  
